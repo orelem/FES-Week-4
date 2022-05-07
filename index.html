@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZBase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="disclaimer">
+        <div class="disclaimer__container">
+            <p class="disclaimer__text">DISCLAIMER: This website is for demonstation purposes only and use of any IP (Intellectual Property) related to Zelda must have prior explicit consent from Nintendo and authorized partners/ subsiduaries</p>
+        </div>
+    </section>
+    <section id="landing">
+        <nav>
+            <div class="row nav__row">
+                <div class="nav__container">
+                    <img class="logo" src="./assets/zelda-logo.png" alt="">
+                    <ul class="nav__links">
+                        <li><a href="#" class="nav__link no-click">About</a></li>
+                        <li><a href="mailto:wilsherandrew@gmail.com" target="_blank" class="nav__link--primary">Contact</a></li>
+                    </ul>
+                </div>
+            </div>   
+        </nav>
+        <header>
+            <h1 class="header__title">Zelda BOTW Compendium</h1>
+            <h2>Fan Built Database</h2>
+            <div id="search__container">
+                <input 
+                    type="text"
+                    name="searchBar"
+                    id="search-bar" 
+                    placeholder="After selecting the category, search by name!"
+                >
+                <img src="./assets/eye-of-truth-icon.png" alt="" id="search__img">
+            </div>
+        </header>
+    </section>
+    <main>
+        <div class="results__container">
+            <h1>What can you search in the compendium?</h1>
+            <ul class="results__search--list">
+                <li><button id="zm">Monsters</button></li>
+                <li><button id="zc" class="no-click">Creatures</button></li>
+                <li><button id="ze" class="no-click">Equipment</button></li>
+                <li><button id="zma" class="no-click">Materials</button></li>
+                <li><button id="zt" class="no-click">Treasure</button></li>  
+            </ul>
+            <h3 class="attention">New Categories & Functionality Coming Soon!</h3>
+            <div id="results__list"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__disclaimer">
+            <div class="row">
+            <h1 class="disclaimer__header">Full Disclaimer</h1>
+            <p class="disclaimer__text">
+                This website is for demonstration to potential employers and clients. Any content contained within is provided as example only and not to be mistaken for commercial use. 
+            </p>
+            <p class="disclaimer__text">
+               This site is not endorsed by or affiliated with Nintendo or any related partners, subsiduaries. The database used is provided by a GitHub contributor with with a current MTI license for commercial use, modification, distribution, and private use. To learn more <a href="https://github.com/gadhagod/Hyrule-Compendium-API/blob/master/LICENSE" class="disclaimer__link" target="_blank">click here</a>. 
+            </p>
+            <p class="disclaimer__text">
+                Please do not copy or use any IP (Intellectual Property) such as images or content without first reaching out to the proper authorities to receive required explicit permission.  
+            </p>
+            </div>
+        </div>
+        <div class="footer__container">
+            <figure>
+                <img class="footer__logo" src="./assets/zelda-logo.png" alt="">
+            </figure>
+            <div class="footer__links">
+                <a href="#" class="footer__link no-click">About</a>
+                <a href="#" class="footer__link no-click">LinkedIn</a>
+                <a href="#" class="footer__link no-click">Resume</a>
+                <a href="mailto:wilsherandrew@gmail.com" target="_blank" class="footer__link">Email</a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
